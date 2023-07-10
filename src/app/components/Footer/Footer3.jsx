@@ -170,7 +170,7 @@ const Footer3 = () => {
                   target="_self"
                 >
                   {" "}
-                  ©2020. | Designed By: Pooja Nahelia. | All rights reserved.{" "}
+                  ©{new Date().getFullYear() }. | Designed By: Pooja Nahelia. | All rights reserved.{" "}
                 </a>
               </p>
             </div>
