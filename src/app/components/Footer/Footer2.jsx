@@ -45,8 +45,7 @@ const Footer2 = () => {
           </div>
 
           <div className={footerStyle.row}>
-            INFERNO Copyright © 2021 Inferno - All rights reserved || Designed
-            By: Mahesh
+            INFERNO Copyright © {new Date().getFullYear() } Inferno - All rights reserved 
           </div>
         </div>
       </footer>
