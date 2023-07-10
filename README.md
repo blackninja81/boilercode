@@ -5,3 +5,4 @@ All background colors can be changed
 NPM packages to be installed:
 npm i sass
 npm install react-icons --save
+

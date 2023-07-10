@@ -1,9 +1,8 @@
 .nav {
     width: 98vw;
-    // margin: 1vw;
     z-index: 1001;
     display: flex;
-    position: fixed;
+    // position: fixed;
     text-align: center;
     align-items: center;
     justify-content: space-around;
@@ -104,15 +103,15 @@
 
   /* Toggle Icon Animation */
 
-  .line1 {
-    transform: rotate(-45deg) translate(-4px, 5px);
-  }
-  .line2 {
-    opacity: 0;
-  }
-  .line3 {
-    transform: rotate(45deg) translate(-4px, -5px);
-  }
+  // .line1 {
+  //   transform: rotate(-45deg) translate(-4px, 5px);
+  // }
+  // .line2 {
+  //   opacity: 0;
+  // }
+  // .line3 {
+  //   transform: rotate(45deg) translate(-4px, -5px);
+  // }
   .main-navbar {
     position: fixed;
     display: flex;
