@@ -1,5 +1,6 @@
 import React from 'react'
-import navStyle from '../../../Styles/Navbar2.module.scss'
+import logo from "../../../public/assets/Logo.png";
+import navStyle from "../../Styles/Navbar2.module.scss";
 
 const Navbar2 = () => {
   return (

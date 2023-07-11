@@ -1,5 +1,6 @@
 import React from "react";
-import footerStyle from "../../../Styles/Footer2.module.scss";
+import logo from "../../../public/assets/Logo.png";
+import footerStyle from "../../Styles/Footer2.module.scss";
 import { BsFacebook, BsTwitter, BsYoutube, BsLinkedin } from "react-icons/bs";
 
 const Footer2 = () => {

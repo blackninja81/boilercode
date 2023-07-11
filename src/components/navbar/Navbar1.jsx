@@ -1,14 +1,14 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import Navstyle from "../../../Styles/Navbar1.module.scss";
+import Navstyle from "../../Styles/Navbar1.module.scss";
 import {
   AiFillFacebook,
   AiFillTwitterSquare,
   AiFillInstagram,
 } from "react-icons/ai";
 import { NavLinks } from "../../constants/Constants.jsx";
-import logo from "../../../../public/assets/Logo.png";
+import logo from "../../../public/assets/Logo.png";
 import Link from "next/link.js";
 
 const Navbar1 = () => {
