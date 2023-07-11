@@ -16,3 +16,6 @@ Endpoints
 /Navbar2
 /Navbar3
 /Navbar4
+
+full-page slider npm:
+npm install @fullpage/react-fullpage
