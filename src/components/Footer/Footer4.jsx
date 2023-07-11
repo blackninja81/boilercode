@@ -1,5 +1,6 @@
 import React from 'react'
-import navStyle from '../../../Styles/Footer4.module.scss'
+import logo from "../../../public/assets/Logo.png";
+import navStyle from "../../Styles/Footer4.module.scss";
 
 const Footer4 = () => {
   return (

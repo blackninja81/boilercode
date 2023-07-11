@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import footerStyle from "../../../Styles/Footer3.module.scss";
-import logo from "../../../../public/assets/Logo.png";
+import logo from "../../../public/assets/Logo.png";
+import footerStyle from "../../Styles/Footer3.module.scss";
 
 const Footer3 = () => {
   return (
