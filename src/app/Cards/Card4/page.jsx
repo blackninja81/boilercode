@@ -1,9 +1,8 @@
 import React from 'react'
-import Footer4 from '../../components/Footer/Footer4'
-
+import Card4 from '../../../components/cards/Card4'
 const page = () => {
   return (
-    <div><Footer4/></div>
+    <div><Card4/></div>
   )
 }
 

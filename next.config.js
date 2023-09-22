@@ -4,6 +4,6 @@ const nextConfig = {}
 module.exports = {
     nextConfig,
 images:{
-    domains:['i.loli.net']
+    domains:['i.loli.net','picsum.photos']
 }
 }

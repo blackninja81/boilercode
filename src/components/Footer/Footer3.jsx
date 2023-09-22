@@ -170,7 +170,7 @@ const Footer3 = () => {
                   target="_self"
                 >
                   {" "}
-                  ©{new Date().getFullYear() }. | Designed By: Pooja Nahelia. | All rights reserved.{" "}
+                  ©{new Date().getFullYear() }. | Designed By: Blackstar. | All rights reserved.{" "}
                 </a>
               </p>
             </div>

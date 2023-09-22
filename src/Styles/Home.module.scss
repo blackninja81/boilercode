@@ -13,3 +13,22 @@ text-align: center;
 .nav3{
     background-color: blue;
 }
+.components_container{
+    display: grid;
+    margin: 3rem 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    :hover{
+        transition-duration: 1s;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+.home_link{
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
