@@ -1,5 +1,5 @@
 .nav {
-    width: 98vw;
+    width: 100%;
     z-index: 1001;
     display: flex;
     // position: fixed;
@@ -10,7 +10,6 @@
     /* From https://css.glass */
     background: rgba(0, 0, 0, 0.37);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     ul {
@@ -70,10 +69,11 @@
       cursor: pointer;
     }
     .nav__menu {
-      top: 15vh;
+      top: 10vh;
       right: 0;
-      height: 90vh;
-      width: 93vw;
+      left: 0;
+      height: 85vh;
+      width: 100%;
       color: black;
       position: fixed;
       flex-direction: column;
@@ -81,7 +81,6 @@
       transform: translateX(100%);
       /* From https://css.glass */
       background: rgba(0, 0, 0, 0.37);
-      border-radius: 16px;
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
@@ -100,18 +99,6 @@
   .nav__active {
     transform: translateX(0);
   }
-
-  /* Toggle Icon Animation */
-
-  // .line1 {
-  //   transform: rotate(-45deg) translate(-4px, 5px);
-  // }
-  // .line2 {
-  //   opacity: 0;
-  // }
-  // .line3 {
-  //   transform: rotate(45deg) translate(-4px, -5px);
-  // }
   .main-navbar {
     position: fixed;
     display: flex;
@@ -175,9 +162,12 @@
  @media screen and (max-width: 500px) {
     .nav{
         margin: 0;
-        width: 100vw;
+        left: 0;
+        width: 100%;
     }
 .nav__menu{
+  width: 100%;
+  left: 0;
     top: 12vh;
 }
  }

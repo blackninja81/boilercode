@@ -6,10 +6,6 @@
 	color: #ececee;
 	background-color: #1f2029;
 	overflow: hidden;
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
-  background-position: center;
-  background-repeat: repeat;
-  background-size: 4%;
   height: 100vh;
   width: 100%;
 }
@@ -26,12 +22,6 @@
   transform: translateY(-50%);
 }
 
-
-// [type="checkbox"]:checked,
-// [type="checkbox"]:not(:checked){
-//   position: absolute;
-//   left: -9999px;
-// }
 .menu_icon:checked + label,
 .menu_icon:not(:checked) + label{
   position: fixed;
@@ -194,6 +184,8 @@
   font-weight: 800;
   display: inline-block;
   position: relative;
+  padding: 30px 0;
+  text-decoration: none;
   color: #ececee;
   transition: all 250ms linear;
 }
@@ -269,24 +261,11 @@
   .nav{
     right: 30px;
   }
-//   h1{
-//     font-size: 9vw;
-//     -webkit-text-stroke: 2px transparent;
-//     text-stroke: 2px transparent;
-//     -webkit-text-fill-color: #ffeba7;
-//     text-fill-color: #ffeba7;
-//     color: #ffeba7;
-//   }
   .nav ul li a{
     font-size: 8vh;
   }
 }
 
-
-
-
-
-
-
-
-
+.menu_icon{
+  display: none;
+}

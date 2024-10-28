@@ -6,7 +6,6 @@ import Image from "next/image";
 const Navbar4 = () => {
   return (
     <div className={navStyle.nav4}>
-      <h1>Click the burger menu to see the magic.</h1>
       <input type="checkbox" id={navStyle.burger_toggle} />
       <label for={navStyle.burger_toggle} className={navStyle.burger_menu}>
         <div className={navStyle.line}></div>
@@ -46,49 +45,49 @@ const Navbar4 = () => {
             </li>
           </ul>
           <div className={navStyle.gallery}>
-            <div className={navStyle.title}>
+            {/* <div className={navStyle.title}>
               <p>Sora Gallery</p>
-            </div>
+            </div> */}
             <div className={navStyle.images}>
               <a className={navStyle.image_link} href="#">
-                <div className={navStyle.image} data-label="Star">
+                {/* <div className={navStyle.image} data-label="Star">
                   <Image
                     src="https://i.loli.net/2019/11/23/cnKl1Ykd5rZCVwm.jpg"
                     alt=""
                     width={100}
                     height={250}
                   />
-                </div>
+                </div> */}
               </a>
               <a className={navStyle.image_link} href="#">
-                <div className={navStyle.image} data-label="Sun">
+                {/* <div className={navStyle.image} data-label="Sun">
                   <Image
                     src="https://i.loli.net/2019/11/16/FLnzi5Kq4tkRZSm.jpg"
                     alt=""
                     width={100}
                     height={250}
                   />
-                </div>
+                </div> */}
               </a>
               <a className={navStyle.image_link} href="#">
-                <div className={navStyle.image} data-label="Tree">
+                {/* <div className={navStyle.image} data-label="Tree">
                   <Image
                     src="https://i.loli.net/2019/10/18/uXF1Kx7lzELB6wf.jpg"
                     alt=""
                     width={100}
                     height={250}
                   />
-                </div>
+                </div> */}
               </a>
               <a className={navStyle.image_link} href="#">
-                <div className={navStyle.image} data-label="Sky">
+                {/* <div className={navStyle.image} data-label="Sky">
                   <Image
                     src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg"
                     alt=""
                     width={100}
                     height={250}
                   />
-                </div>
+                </div> */}
               </a>
             </div>
           </div>
