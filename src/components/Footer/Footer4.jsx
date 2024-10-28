@@ -7,7 +7,6 @@ const Footer4 = () => {
     <div>
         <footer className={navStyle.footer}>
   <div className={navStyle.footer__addr}>
-    <h1 className={navStyle.footer__logo}>Something</h1>
         
     <h2>Contact</h2>
     
